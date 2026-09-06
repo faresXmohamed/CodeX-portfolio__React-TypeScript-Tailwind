@@ -8,7 +8,6 @@ import {
 
 const Footer = () => {
 
-    const currentYear = new Date().getFullYear();
 
     const navLinks = [
         { name: "Home", href: "#home" },
@@ -303,7 +302,7 @@ const Footer = () => {
                             dark:text-[var(--dark-muted-text)]
                         "
                     >
-                        © {currentYear} CodeX — Helmy Mohamed. All rights reserved.
+                        © 2026 CodeX • All rights reserved.
                     </p>
 
 
