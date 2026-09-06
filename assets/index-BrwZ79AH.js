@@ -585,29 +585,29 @@ Error generating stack: `+e.message+`
                                         text-[11px]
                                         min-[400px]:text-[13px]
                                         ${e.includes(`successfully`)?`text-[var(--success-color)]`:`text-[var(--error-color)]`}
-                                    `,children:e})]})]})]})]})})},dt=()=>{let e=(0,S.c)(13),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=new Date().getFullYear(),e[0]=t):t=e[0];let n=t,r;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(r=[{name:`Home`,href:`#home`},{name:`About`,href:`#about`},{name:`Skills`,href:`#skills & technologies`},{name:`Projects`,href:`#projects`},{name:`Contact`,href:`#contact`}],e[1]=r):r=e[1];let i=r,a=ft,o;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(o=(0,w.jsx)(`div`,{children:`</>`}),e[2]=o):o=e[2];let s;e[3]===Symbol.for(`react.memo_cache_sentinel`)?(s=(0,w.jsxs)(`div`,{className:`logo-brand`,children:[o,(0,w.jsxs)(`div`,{children:[(0,w.jsxs)(`div`,{children:[`Code`,(0,w.jsx)(`span`,{children:`X`})]}),(0,w.jsx)(`div`,{children:`HELMY MOHAMED`})]})]}),e[3]=s):s=e[3];let c;e[4]===Symbol.for(`react.memo_cache_sentinel`)?(c=(0,w.jsx)(`h3`,{className:`\r
+                                    `,children:e})]})]})]})]})})},dt=()=>{let e=(0,S.c)(12),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=[{name:`Home`,href:`#home`},{name:`About`,href:`#about`},{name:`Skills`,href:`#skills & technologies`},{name:`Projects`,href:`#projects`},{name:`Contact`,href:`#contact`}],e[0]=t):t=e[0];let n=t,r=ft,i;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(i=(0,w.jsx)(`div`,{children:`</>`}),e[1]=i):i=e[1];let a;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(a=(0,w.jsxs)(`div`,{className:`logo-brand`,children:[i,(0,w.jsxs)(`div`,{children:[(0,w.jsxs)(`div`,{children:[`Code`,(0,w.jsx)(`span`,{children:`X`})]}),(0,w.jsx)(`div`,{children:`HELMY MOHAMED`})]})]}),e[2]=a):a=e[2];let o;e[3]===Symbol.for(`react.memo_cache_sentinel`)?(o=(0,w.jsx)(`h3`,{className:`\r
                                 font-semibold\r
                                 text-[14px]\r
                                 text-[var(--light-primary-text)]\r
                                 dark:text-[var(--dark-primary-text)]\r
                                 mb-[12px]\r
-                            `,children:`Quick Links`}),e[4]=c):c=e[4];let l;e[5]===Symbol.for(`react.memo_cache_sentinel`)?(l=(0,w.jsxs)(`div`,{className:`\r
+                            `,children:`Quick Links`}),e[3]=o):o=e[3];let s;e[4]===Symbol.for(`react.memo_cache_sentinel`)?(s=(0,w.jsxs)(`div`,{className:`\r
                             flex\r
                             flex-col\r
                             items-center\r
-                        `,children:[c,(0,w.jsx)(`nav`,{children:(0,w.jsx)(`ul`,{className:`\r
+                        `,children:[o,(0,w.jsx)(`nav`,{children:(0,w.jsx)(`ul`,{className:`\r
                                     flex\r
                                     flex-wrap\r
                                     justify-center\r
                                     gap-x-[18px]\r
                                     gap-y-[8px]\r
-                                `,children:i.map(pt)})})]}),e[5]=l):l=e[5];let u;e[6]===Symbol.for(`react.memo_cache_sentinel`)?(u=(0,w.jsx)(`h3`,{className:`\r
+                                `,children:n.map(pt)})})]}),e[4]=s):s=e[4];let c;e[5]===Symbol.for(`react.memo_cache_sentinel`)?(c=(0,w.jsx)(`h3`,{className:`\r
                                 font-semibold\r
                                 text-[14px]\r
                                 text-[var(--light-primary-text)]\r
                                 dark:text-[var(--dark-primary-text)]\r
                                 mb-[12px]\r
-                            `,children:`Connect With Me`}),e[6]=u):u=e[6];let d;e[7]===Symbol.for(`react.memo_cache_sentinel`)?(d=(0,w.jsx)(`a`,{href:`https://github.com/faresXmohamed`,target:`_blank`,rel:`noreferrer`,"aria-label":`GitHub`,className:`\r
+                            `,children:`Connect With Me`}),e[5]=c):c=e[5];let l;e[6]===Symbol.for(`react.memo_cache_sentinel`)?(l=(0,w.jsx)(`a`,{href:`https://github.com/faresXmohamed`,target:`_blank`,rel:`noreferrer`,"aria-label":`GitHub`,className:`\r
                                     w-[38px]\r
                                     h-[38px]\r
                                     flex-center\r
@@ -624,7 +624,7 @@ Error generating stack: `+e.message+`
                                     transition-all\r
                                     duration-300\r
                                     hover:-translate-y-[3px]\r
-                                `,children:(0,w.jsx)(he,{size:17})}),e[7]=d):d=e[7];let f;e[8]===Symbol.for(`react.memo_cache_sentinel`)?(f=(0,w.jsx)(`a`,{href:`https://www.linkedin.com/in/faresxmohamed`,target:`_blank`,rel:`noreferrer`,"aria-label":`LinkedIn`,className:`\r
+                                `,children:(0,w.jsx)(he,{size:17})}),e[6]=l):l=e[6];let u;e[7]===Symbol.for(`react.memo_cache_sentinel`)?(u=(0,w.jsx)(`a`,{href:`https://www.linkedin.com/in/faresxmohamed`,target:`_blank`,rel:`noreferrer`,"aria-label":`LinkedIn`,className:`\r
                                     w-[38px]\r
                                     h-[38px]\r
                                     flex-center\r
@@ -641,7 +641,7 @@ Error generating stack: `+e.message+`
                                     transition-all\r
                                     duration-300\r
                                     hover:-translate-y-[3px]\r
-                                `,children:(0,w.jsx)(me,{size:17})}),e[8]=f):f=e[8];let p,m;e[9]===Symbol.for(`react.memo_cache_sentinel`)?(m=(0,w.jsxs)(`div`,{className:`\r
+                                `,children:(0,w.jsx)(me,{size:17})}),e[7]=u):u=e[7];let d,f;e[8]===Symbol.for(`react.memo_cache_sentinel`)?(d=(0,w.jsxs)(`div`,{className:`\r
                         w-full\r
                         flex\r
                         flex-col\r
@@ -649,14 +649,14 @@ Error generating stack: `+e.message+`
                         items-center\r
                         justify-between\r
                         gap-[30px]\r
-                    `,children:[s,l,(0,w.jsxs)(`div`,{className:`\r
+                    `,children:[a,s,(0,w.jsxs)(`div`,{className:`\r
                             flex\r
                             flex-col\r
                             items-center\r
-                        `,children:[u,(0,w.jsxs)(`div`,{className:`\r
+                        `,children:[c,(0,w.jsxs)(`div`,{className:`\r
                                 flex\r
                                 gap-[10px]\r
-                            `,children:[d,f,(0,w.jsx)(`a`,{href:`https://wa.me/fares.mo121`,target:`_blank`,rel:`noreferrer`,"aria-label":`WhatsApp`,className:`\r
+                            `,children:[l,u,(0,w.jsx)(`a`,{href:`https://wa.me/fares.mo121`,target:`_blank`,rel:`noreferrer`,"aria-label":`WhatsApp`,className:`\r
                                     w-[38px]\r
                                     h-[38px]\r
                                     flex-center\r
@@ -673,19 +673,19 @@ Error generating stack: `+e.message+`
                                     transition-all\r
                                     duration-300\r
                                     hover:-translate-y-[3px]\r
-                                `,children:(0,w.jsx)(pe,{size:17})})]})]})]}),p=(0,w.jsx)(`div`,{className:`\r
+                                `,children:(0,w.jsx)(pe,{size:17})})]})]})]}),f=(0,w.jsx)(`div`,{className:`\r
                         w-full\r
                         h-[1px]\r
                         my-[25px]\r
                         bg-[var(--light-border)]\r
                         dark:bg-[var(--dark-border)]\r
-                    `}),e[9]=p,e[10]=m):(p=e[9],m=e[10]);let h;e[11]===Symbol.for(`react.memo_cache_sentinel`)?(h=(0,w.jsxs)(`p`,{className:`\r
+                    `}),e[8]=d,e[9]=f):(d=e[8],f=e[9]);let p;e[10]===Symbol.for(`react.memo_cache_sentinel`)?(p=(0,w.jsx)(`p`,{className:`\r
                             text-[10px]\r
                             sm:text-[12px]\r
                             text-center\r
                             text-[var(--light-muted-text)]\r
                             dark:text-[var(--dark-muted-text)]\r
-                        `,children:[`© `,n,` CodeX — Helmy Mohamed. All rights reserved.`]}),e[11]=h):h=e[11];let g;return e[12]===Symbol.for(`react.memo_cache_sentinel`)?(g=(0,w.jsx)(`footer`,{className:`\r
+                        `,children:`© 2026 CodeX • All rights reserved.`}),e[10]=p):p=e[10];let m;return e[11]===Symbol.for(`react.memo_cache_sentinel`)?(m=(0,w.jsx)(`footer`,{className:`\r
                 w-full\r
                 bg-[var(--light-alt-bg)]\r
                 dark:bg-[var(--dark-alt-bg)]\r
@@ -699,7 +699,7 @@ Error generating stack: `+e.message+`
                     flex\r
                     flex-col\r
                     items-center\r
-                `,children:[m,p,(0,w.jsxs)(`div`,{className:`\r
+                `,children:[d,f,(0,w.jsxs)(`div`,{className:`\r
                         w-full\r
                         flex\r
                         flex-col\r
@@ -707,7 +707,7 @@ Error generating stack: `+e.message+`
                         items-center\r
                         justify-between\r
                         gap-[15px]\r
-                    `,children:[h,(0,w.jsx)(`button`,{onClick:a,"aria-label":`Back to top`,className:`\r
+                    `,children:[p,(0,w.jsx)(`button`,{onClick:r,"aria-label":`Back to top`,className:`\r
                             w-[34px]\r
                             h-[34px]\r
                             flex-center\r
@@ -719,7 +719,7 @@ Error generating stack: `+e.message+`
                             duration-300\r
                             hover:bg-[var(--secondary-color)]\r
                             hover:-translate-y-[3px]\r
-                        `,children:(0,w.jsx)(be,{size:13})})]})]})}),e[12]=g):g=e[12],g};function ft(){window.scrollTo({top:0,behavior:`smooth`})}function pt(e){return(0,w.jsx)(`li`,{children:(0,w.jsx)(`a`,{href:e.href,className:`\r
+                        `,children:(0,w.jsx)(be,{size:13})})]})]})}),e[11]=m):m=e[11],m};function ft(){window.scrollTo({top:0,behavior:`smooth`})}function pt(e){return(0,w.jsx)(`li`,{children:(0,w.jsx)(`a`,{href:e.href,className:`\r
                                                 text-[11px]\r
                                                 sm:text-[12px]\r
                                                 text-[var(--light-secondary-text)]\r
