@@ -10,5 +10,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
-  base: "/CodeX-portfolio/",
+  base: "/CodeX-portfolio__React-TypeScript-Tailwind/",
 })
