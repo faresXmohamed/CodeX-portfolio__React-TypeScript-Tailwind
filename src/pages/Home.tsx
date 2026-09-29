@@ -34,7 +34,6 @@ const Home = () => {
               text-[17px]
               sm:text-[19px]
               text-[#69757d]
-              tracking-[2px]
             "
           >
             Hi, my name is Helmy Mohamed
@@ -65,9 +64,8 @@ const Home = () => {
               dark:text-[var(--dark-secondary-text)]
             "
           >
-            I build modern and scalable web applications,
-            working across the frontend with React and TypeScript
-            and the backend with .NET.
+            Building modern, scalable web applications with clean code and great UX. <br />
+            I build responsive web applications using React, TypeScript, and .NET.
           </p>
 
           <div
@@ -80,23 +78,23 @@ const Home = () => {
               gap-2
             "
           >
-            <span className="px-3 py-1 rounded-full bg-[var(--surface-color)] dark:bg-[var(--dark-surface)] text-sm">
+            <span className="px-3 py-1 rounded-full bg-[var(--light-alt-surface)] dark:bg-[var(--dark-surface)] text-[var(--light-secondary-text)] dark:text-[var(--dark-secondary-text)] text-sm">
               React
             </span>
 
-            <span className="px-3 py-1 rounded-full bg-[var(--surface-color)] dark:bg-[var(--dark-surface)] text-sm">
+            <span className="px-3 py-1 rounded-full bg-[var(--light-alt-surface)] dark:bg-[var(--dark-surface)] text-[var(--light-secondary-text)] dark:text-[var(--dark-secondary-text)] text-sm">
               Next.js
             </span>
             
-            <span className="px-3 py-1 rounded-full bg-[var(--surface-color)] dark:bg-[var(--dark-surface)] text-sm">
+            <span className="px-3 py-1 rounded-full bg-[var(--light-alt-surface)] dark:bg-[var(--dark-surface)] text-[var(--light-secondary-text)] dark:text-[var(--dark-secondary-text)] text-sm">
               TypeScript
             </span>
 
-            <span className="px-3 py-1 rounded-full bg-[var(--surface-color)] dark:bg-[var(--dark-surface)] text-sm">
+            <span className="px-3 py-1 rounded-full bg-[var(--light-alt-surface)] dark:bg-[var(--dark-surface)] text-[var(--light-secondary-text)] dark:text-[var(--dark-secondary-text)] text-sm">
               .NET
             </span>
 
-            <span className="px-3 py-1 rounded-full bg-[var(--surface-color)] dark:bg-[var(--dark-surface)] text-sm">
+            <span className="px-3 py-1 rounded-full bg-[var(--light-alt-surface)] dark:bg-[var(--dark-surface)] text-[var(--light-secondary-text)] dark:text-[var(--dark-secondary-text)] text-sm">
               C#
             </span>
           </div>
@@ -126,6 +124,22 @@ const Home = () => {
               "
             >
               View My Work
+            </a>
+            <a
+              href="#about"
+              className="
+                px-[var(--spacing-lg)]
+                py-[var(--spacing-sm)]
+                rounded-[var(--radius-md)]
+                bg-[var(--primary-color)]
+                text-white
+                font-medium
+                transition-all
+                duration-300
+                hover:scale-105
+              "
+            >
+              About Me
             </a>
 
           </div>

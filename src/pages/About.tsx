@@ -24,7 +24,7 @@ const About = () => {
         <div className="flex gap-[20px]">
             <a target="_blank" className="flex gap-[5px] text-[#2ca0ff]" href="mailto:faresmohamedsaiedahmed@gmail.com"><img className="w-[20px]" src={sendmail} alt="Email" />Email</a>
             <a target="_blank" className="flex gap-[5px] text-[#2ca0ff]" href="www.linkedin.com/in/faresxmohamed"><img className="w-[20px]" src={linkedin} alt="Linkedin" />Linkedin</a>
-            <a target="_blank" className="flex gap-[5px] text-[#2ca0ff]" href="https://github.com/faresXmohamed"><img className="w-[20px]" src={githup} alt="GitHup" />GitHup</a>
+            <a target="_blank" className="flex gap-[5px] text-[#2ca0ff]" href="https://github.com/faresXmohamed"><img className="w-[20px]" src={githup} alt="GitHup" />GitHub</a>
         </div>
         </div>
         </div>

@@ -5,18 +5,7 @@ import {
     FaArrowUp,
 } from "react-icons/fa6";
 
-
 const Footer = () => {
-
-
-    const navLinks = [
-        { name: "Home", href: "#home" },
-        { name: "About", href: "#about" },
-        { name: "Skills", href: "#skills & technologies" },
-        { name: "Projects", href: "#projects" },
-        { name: "Contact", href: "#contact" },
-    ];
-
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -24,7 +13,6 @@ const Footer = () => {
             behavior: "smooth",
         });
     };
-
 
     return (
         <footer
@@ -65,23 +53,32 @@ const Footer = () => {
                     "
                 >
 
-                    {/* LOGO / DESCRIPTION */}
-            <div className="logo-brand">
-                <div>{"</>"}</div>
-                <div>
-                    <div>Code<span>X</span></div>
-                    <div>HELMY MOHAMED</div>
-                </div>
-            </div>
+                    {/* LOGO */}
+
+                    <div className="logo-brand">
+                        <div>{"</>"}</div>
+
+                        <div>
+                            <div>
+                                Code<span>X</span>
+                            </div>
+
+                            <div>
+                                HELMY MOHAMED
+                            </div>
+                        </div>
+                    </div>
 
 
-                    {/* QUICK LINKS */}
+                    {/* THANK YOU */}
 
                     <div
                         className="
                             flex
                             flex-col
                             items-center
+                            text-center
+                            max-w-[300px]
                         "
                     >
 
@@ -91,47 +88,24 @@ const Footer = () => {
                                 text-[14px]
                                 text-[var(--light-primary-text)]
                                 dark:text-[var(--dark-primary-text)]
-                                mb-[12px]
+                                mb-[10px]
                             "
                         >
-                            Quick Links
+                            Thank You
                         </h3>
 
-
-                        <nav>
-                            <ul
-                                className="
-                                    flex
-                                    flex-wrap
-                                    justify-center
-                                    gap-x-[18px]
-                                    gap-y-[8px]
-                                "
-                            >
-
-                                {navLinks.map((link) => (
-                                    <li key={link.name}>
-
-                                        <a
-                                            href={link.href}
-                                            className="
-                                                text-[11px]
-                                                sm:text-[12px]
-                                                text-[var(--light-secondary-text)]
-                                                dark:text-[var(--dark-secondary-text)]
-                                                hover:text-[var(--primary-color)]
-                                                transition-colors
-                                                duration-300
-                                            "
-                                        >
-                                            {link.name}
-                                        </a>
-
-                                    </li>
-                                ))}
-
-                            </ul>
-                        </nav>
+                        <p
+                            className="
+                                text-[11px]
+                                sm:text-[12px]
+                                leading-[1.7]
+                                text-[var(--light-secondary-text)]
+                                dark:text-[var(--dark-secondary-text)]
+                            "
+                        >
+                            Thank you for taking the time to explore my portfolio.
+                            I look forward to connecting with you.
+                        </p>
 
                     </div>
 
@@ -335,6 +309,5 @@ const Footer = () => {
         </footer>
     );
 };
-
 
 export default Footer;

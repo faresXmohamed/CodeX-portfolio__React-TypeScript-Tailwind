@@ -188,3 +188,32 @@ body{
 html {
     scroll-behavior: smooth;
 }
+
+
+.education-tag {
+  padding: 4px 8px;
+  font-size: 10px;
+  border-radius: var(--radius-pill);
+  background: var(--light-alt-surface);
+  color: var(--light-secondary-text);
+}
+
+.dark .education-tag {
+  background: var(--dark-alt-surface);
+  color: var(--dark-secondary-text);
+}
+
+.service-tag {
+  padding: 4px 8px;
+  font-size: 10px;
+  border-radius: var(--radius-pill);
+  background: var(--light-alt-surface);
+  color: var(--light-secondary-text);
+  border: 1px solid var(--light-border);
+}
+
+.dark .service-tag {
+  background: var(--dark-alt-surface);
+  color: var(--dark-secondary-text);
+  border-color: var(--dark-border);
+}

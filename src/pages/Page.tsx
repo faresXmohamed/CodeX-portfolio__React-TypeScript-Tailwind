@@ -3,17 +3,21 @@ import About from "./About";
 import Skills from "./Skills";
 import Project from "./Project";
 import Contact from "./Contact";
-import Footer from "../components/Footer";
+import Education from "./Education";
+import Services from "./Services";
+
 
 const Page = () => {
   return (
     <>
     <Home />
     <About />
+    <Education/>
     <Skills />
+    <Services />
     <Project />
     <Contact />
-    <Footer />
+    
     </>
   )
 }
