@@ -11,6 +11,7 @@ import {
     FaGithub,
     FaLinkedin,
     FaWhatsapp,
+    FaFacebook,
 } from "react-icons/fa";
 
 
@@ -103,8 +104,8 @@ const Contact = () => {
                 pt-[64px]
                 min-[400px]:pt-[70px]
                 sm:pt-[80px]
-                bg-[var(--light-bg)]
-                dark:bg-[var(--dark-bg)]
+                bg-[var(--light-alt-bg)]
+                dark:bg-[var(--dark-alt-bg)]
             "
         >
 
@@ -548,7 +549,7 @@ const Contact = () => {
                                 mb-[3px]
                             "
                         >
-                            Follow Me
+                            Let's stay in touch.
                         </h3>
 
 
@@ -580,7 +581,7 @@ const Contact = () => {
                             {/* GITHUB */}
 
                             <a
-                                href="https://github.com/faresXmohamed"
+                                href="https://www.facebook.com/fares.mohamed.696509"
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label="GitHub"
@@ -605,7 +606,7 @@ const Contact = () => {
                                     transition
                                 "
                             >
-                                <FaGithub />
+                                <FaFacebook />
                             </a>
 
 

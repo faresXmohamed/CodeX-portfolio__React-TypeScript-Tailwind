@@ -18,11 +18,11 @@ const Footer = () => {
         <footer
             className="
                 w-full
-                bg-[var(--light-alt-bg)]
-                dark:bg-[var(--dark-alt-bg)]
+                bg-[var(--light-bg)]
+                dark:bg-[var(--dark-bg)]
                 border-t
-                border-[var(--light-border)]
-                dark:border-[var(--dark-border)]
+                border-[var(--light-alt-border)]
+                dark:border-[var(--dark-alt-border)]
             "
         >
 

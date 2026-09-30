@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const Project = () => {
   return (
     <>
-        <section id="projects" className="pb-[50px] bg-[var(--light-alt-bg)] dark:bg-[var(--dark-alt-bg)] pt-[64px] sm:pt-[80px]">
+        <section id="projects" className="pb-[50px] bg-[var(--light-bg)] dark:bg-[var(--dark-bg)] pt-[64px] sm:pt-[80px]">
           <div className="container flex flex-col justify-start text-center items-center">
             <h2 className="font-bold [font-size:28px] sm:[font-size:36px] text-[var(--light-primary-text)] dark:text-[var(--dark-primary-text)] px-[5px] border-b-[2px] border-[var(--primary-color)] mb-[15px]">Project</h2>
             <div className="flex flex-col sm:flex-row overflow-hidden w-full max-w-[900px] bg-[var(--light-surface)] dark:bg-[var(--dark-surface)] border-2 dark:border-[var(--dark-border)] border-[var(--light-border)] rounded-[var(--radius-lg)] hover:translate-y-[-4px] duration-300">

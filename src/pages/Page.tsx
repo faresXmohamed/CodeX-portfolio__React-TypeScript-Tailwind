@@ -5,6 +5,7 @@ import Project from "./Project";
 import Contact from "./Contact";
 import Education from "./Education";
 import Services from "./Services";
+import WorkExperience from "./WorkExperience";
 
 
 const Page = () => {
@@ -14,6 +15,7 @@ const Page = () => {
     <About />
     <Education/>
     <Skills />
+    <WorkExperience />
     <Services />
     <Project />
     <Contact />

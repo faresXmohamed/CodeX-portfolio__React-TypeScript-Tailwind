@@ -217,3 +217,54 @@ html {
   color: var(--dark-secondary-text);
   border-color: var(--dark-border);
 }
+
+.experience-tag {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 9px;
+    font-size: 10px;
+    border-radius: var(--radius-pill);
+    background: var(--light-alt-surface);
+    color: var(--light-secondary-text);
+    border: 1px solid var(--light-border);
+    transition: all 0.3s ease;
+}
+
+.experience-tag svg {
+    color: var(--primary-color);
+    font-size: 11px;
+}
+
+.experience-tag:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.dark .experience-tag {
+    background: var(--dark-alt-surface);
+    color: var(--dark-secondary-text);
+    border-color: var(--dark-border);
+}
+
+
+.experience-point {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 11px;
+    line-height: 1.7;
+    color: var(--light-secondary-text);
+}
+
+.experience-point svg {
+    flex-shrink: 0;
+    margin-top: 3px;
+    color: var(--primary-color);
+    font-size: 10px;
+}
+
+.dark .experience-point {
+    color: var(--dark-secondary-text);
+}

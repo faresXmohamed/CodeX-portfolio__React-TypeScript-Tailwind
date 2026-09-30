@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <section
       id="offeredservices"
-      className="relative z-0 pb-[50px] bg-[var(--light-bg)] dark:bg-[var(--dark-bg)] pt-[64px] sm:pt-[80px]"
+      className="relative z-0 pb-[50px] bg-[var(--light-alt-bg)] dark:bg-[var(--dark-alt-bg)] pt-[64px] sm:pt-[80px]"
     >
       <div className="container flex flex-col justify-start items-center">
 
